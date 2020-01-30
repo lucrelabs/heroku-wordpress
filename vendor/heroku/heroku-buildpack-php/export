@@ -1,0 +1,11 @@
+export PATH=/app/.heroku/php/bin:$PATH:/app/vendor/bin
+
+export PATH="/app/.heroku/php/bin:/app/.heroku/php/sbin:$PATH"
+
+
+export PATH="/app/.heroku/php/bin:/app/.heroku/php/sbin:$PATH"
+
+
+export PATH="/app/.heroku/php/sbin:$PATH"
+
+export PHP_INI_SCAN_DIR=${PHP_INI_SCAN_DIR-}:/app/tmp/buildpacks/82eb9daa27a4e8aa500f0928a93813005d4f22d402a9388e00a0c060bea9214ffa9a9176f048b9b0f8ec2e694d858c161f487786f4a98109099a3811127a54c5/conf/php/apm-nostart-overrides/
