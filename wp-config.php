@@ -89,3 +89,6 @@ if ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && 'https' == $_SERVER['HTTP_X_
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/** Increase memory limit for Divi uploads on Heroku **/
+define('WP_MEMORY_LIMIT', '64M');
