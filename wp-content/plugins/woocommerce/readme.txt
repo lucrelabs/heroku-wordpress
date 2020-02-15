@@ -4,7 +4,7 @@ Tags: ecommerce, e-commerce, store, sales, sell, shop, cart, checkout, downloada
 Requires at least: 5.0
 Tested up to: 5.3
 Requires PHP: 7.0
-Stable tag: 3.9.0
+Stable tag: 3.9.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -179,6 +179,20 @@ INTERESTED IN DEVELOPMENT?
 
 == Changelog ==
 
+= 3.9.2 - 2020-02-13 =
+
+* Security - Show a notice when a logged-in customer pays for a guest order.
+* Security - Disallow links in coupon error messages.
+* Fix - Restored the default behavior of the "Shipping destination" option. #25571
+
+= 3.9.1 - 2020-01-28 =
+
+* Tweak - Trim whitespaces and strip slashes from MaxMind License Key.
+* Dev - Prevent empty notices to get displayed on frontend.
+* Fix - Show "-" instead of "0" when tax isn't applicable to a product.
+* Fix - Fixed fatal error on the thank you page if order is not specified.
+* REST API - Fixed - Product and variations schema to allow remove sale prices, dimensions and weight.
+
 = 3.9.0 - 2020-01-21 =
 
 * Enhancement - Added a "Show" button next to the password field on the login fields. #24915
@@ -258,7 +272,7 @@ INTERESTED IN DEVELOPMENT?
 * Dev - Introduced wc_get_product_object() helper. #25031
 * Dev - Pass the correct `$this->updated_props` variable to the `woocommerce_coupon_object_updated_props` action's second paramater. #25077
 * Dev - Remove a few calls to `func_get_args()` and `call_user_func_array()` with the spread operator for better code legibility and performance gains. #25101
-- Dev - New `woocommerce_valid_order_statuses_for_payment` hook that triggers when an order is paid. Use this new hook instead of `woocommerce_order_status_changed` or *woocommerce_order_status_{old_status}}_to_{new_status}` to trigger code for payment completion. #25158
+* Dev - New `woocommerce_valid_order_statuses_for_payment` hook that triggers when an order is paid. Use this new hook instead of `woocommerce_order_status_changed` or woocommerce_order_status_{old_status}}_to_{new_status}` to trigger code for payment completion. #25158
 * Dev - Ability to exclude certain product types from product search calls. #25162
 * Dev - Raise exception when `WC_Product_Variation` is instantiated with an ID that belongs to an object that is not a variation. #25178
 * Localization - Add subdivisions of Laos. #24765
