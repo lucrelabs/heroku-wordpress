@@ -91,4 +91,4 @@ if ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && 'https' == $_SERVER['HTTP_X_
 require_once(ABSPATH . 'wp-settings.php');
 
 /** Increase memory limit for Divi uploads on Heroku **/
-define('WP_MEMORY_LIMIT', '64M');
+define('WP_MEMORY_LIMIT', '256M');
