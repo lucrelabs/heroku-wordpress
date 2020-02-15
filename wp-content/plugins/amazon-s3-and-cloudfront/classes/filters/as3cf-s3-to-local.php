@@ -110,7 +110,7 @@ class AS3CF_S3_To_Local extends AS3CF_Filter {
 	 *
 	 * @return bool|int
 	 */
-	protected function get_attachment_id_from_url( $url ) {
+	public function get_attachment_id_from_url( $url ) {
 		global $wpdb;
 
 		$full_url = AS3CF_Utils::remove_size_from_filename( $url );
