@@ -6943,7 +6943,7 @@ endif;
 
 if ( ! function_exists( 'et_get_original_footer_credits' ) ) :
 function et_get_original_footer_credits() {
-	return sprintf( __( 'Designed by %1$s | Powered by %2$s', 'Divi' ), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>' );
+	return sprintf( __( '© Mighty Cricket All Rights Reserved %1$s | Built by %2$s', 'Divi' ), '<a href="http://www.mightycricket.co" >Mighty Cricket</a>', '<a href="https://lucrelabs.com">LUCRElabs</a>' );
 }
 endif;
 
