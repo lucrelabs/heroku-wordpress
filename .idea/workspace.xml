@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74ed6345-46ff-45b3-9f51-f54463c8b5e9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/heroku/heroku-buildpack-php" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Xr2gFwdArbisDLhOimFaKwBZjs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/plugins" />
+      <recent name="$PROJECT_DIR$/wp-content/themes" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vendor" />
+      <recent name="$PROJECT_DIR$/wp-content/plugins" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74ed6345-46ff-45b3-9f51-f54463c8b5e9" name="Default" comment="" />
+      <created>1580181889381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580181889381</updated>
+      <workItem from="1580181895634" duration="3318000" />
+      <workItem from="1580193941476" duration="1806000" />
+      <workItem from="1580325135950" duration="2566000" />
+      <workItem from="1580701602840" duration="3318000" />
+      <workItem from="1581790007158" duration="1842000" />
+      <workItem from="1581792379247" duration="290000" />
+    </task>
+    <task id="LOCAL-00001" summary="Activate plugins and deactivate them. Add ManageWP Worker.">
+      <created>1580192233141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580192233141</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add 2020 theme, a bunch of other stuff from activated plugins, etc.">
+      <created>1580193316121</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580193316121</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;Activate plugins and deactivate them. Add ManageWP Worker.&quot;&#10;&#10;This reverts commit a911761">
+      <created>1580193779830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580193779830</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Revert &quot;Try to fix hook.&quot;&#10;&#10;This reverts commit fbeb00d">
+      <created>1580193912209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580193912209</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1580195114191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580195114191</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1580349422259</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580349422259</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update, add user roles and permissions plugin">
+      <created>1580361717600</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580361717600</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add missing files">
+      <created>1580363324481</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580363324481</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Move things to where they belong">
+      <created>1580702435685</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580702435685</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add backup from live site">
+      <created>1580710533266</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580710533266</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Activate plugins and deactivate them. Add ManageWP Worker." />
+    <MESSAGE value="Add 2020 theme, a bunch of other stuff from activated plugins, etc." />
+    <MESSAGE value="Revert &quot;Activate plugins and deactivate them. Add ManageWP Worker.&quot;&#10;&#10;This reverts commit a911761" />
+    <MESSAGE value="Revert &quot;Try to fix hook.&quot;&#10;&#10;This reverts commit fbeb00d" />
+    <MESSAGE value="update" />
+    <MESSAGE value="update, add user roles and permissions plugin" />
+    <MESSAGE value="add missing files" />
+    <MESSAGE value="Move things to where they belong" />
+    <MESSAGE value="Add backup from live site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add backup from live site" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1229" y="370" key="SettingsEditor" timestamp="1581790044050">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="1229" y="370" key="SettingsEditor/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581790044050" />
+    <state x="1413" y="563" key="com.intellij.ide.util.TipDialog" timestamp="1581792379807">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="1413" y="563" key="com.intellij.ide.util.TipDialog/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581792379807" />
+  </component>
+</project>
