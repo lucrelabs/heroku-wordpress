@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74ed6345-46ff-45b3-9f51-f54463c8b5e9" name="Default" comment="update footer">
+    <list default="true" id="74ed6345-46ff-45b3-9f51-f54463c8b5e9" name="Default" comment="update mailchimp plugin">
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/ActionScheduler_DataController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/ActionScheduler_OptionLock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/WP_CLI/Migration_Command.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/WP_CLI/ProgressBar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Abstract_RecurringSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Abstract_Schedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Abstract_Schema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Lock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Logger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_TimezoneHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/actions/ActionScheduler_Action.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/actions/ActionScheduler_CanceledAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/actions/ActionScheduler_FinishedAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/actions/ActionScheduler_NullAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/ActionMigrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/BatchFetcher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/DryRun_ActionMigrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/DryRun_LogMigrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/LogMigrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/Runner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/Scheduler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_CanceledSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_CronSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_IntervalSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_NullSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_Schedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_SimpleSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/deprecated/ActionScheduler_Schedule_Deprecated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/deprecated/ActionScheduler_Store_Deprecated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/docs/version3-0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/lib/WP_Async_Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/phpcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/ActionScheduler_Mock_Async_Request_QueueRunner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/ActionScheduler_Mocker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/jobstore/ActionScheduler_DBStoreMigrator_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/jobstore/ActionScheduler_DBStore_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/jobstore/ActionScheduler_HybridStore_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/lock/ActionScheduler_OptionLock_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/logging/ActionScheduler_DBLogger_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/ActionMigrator_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/BatchFetcher_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/Config_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/LogMigrator_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/Runner_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/Scheduler_Test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +138,7 @@
       <workItem from="1581792379247" duration="7550000" />
       <workItem from="1581993771065" duration="44000" />
       <workItem from="1583518032294" duration="513000" />
+      <workItem from="1584073047155" duration="557000" />
     </task>
     <task id="LOCAL-00001" summary="Activate plugins and deactivate them. Add ManageWP Worker.">
       <created>1580192233141</created>
@@ -251,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581804360716</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update mailchimp plugin">
+      <created>1584073331013</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1584073331013</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,27 +383,31 @@
     <MESSAGE value="For divi theme uploader" />
     <MESSAGE value="Make protected class public to resolve php error when uploading divi premade layouts" />
     <MESSAGE value="update footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="update footer" />
+    <MESSAGE value="update mailchimp plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="update mailchimp plugin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="235" key="CommitChangelistDialog2" timestamp="1581804360336">
+    <state x="651" y="235" key="CommitChangelistDialog2" timestamp="1584073329405">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state x="651" y="235" key="CommitChangelistDialog2/0.23.3440.1417/-1680.23.1680.1027@0.23.3440.1417" timestamp="1584073329405" />
     <state x="651" y="235" key="CommitChangelistDialog2/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581804360336" />
     <state x="600" y="274" key="SettingsEditor" timestamp="1581993759110">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="600" y="274" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1581993759110" />
     <state x="1229" y="370" key="SettingsEditor/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581790044050" />
-    <state x="749" y="361" key="Vcs.Push.Dialog.v2" timestamp="1581804362314">
+    <state x="749" y="361" key="Vcs.Push.Dialog.v2" timestamp="1584073334934">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state x="749" y="361" key="Vcs.Push.Dialog.v2/0.23.3440.1417/-1680.23.1680.1027@0.23.3440.1417" timestamp="1584073334934" />
     <state x="749" y="361" key="Vcs.Push.Dialog.v2/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581804362314" />
-    <state x="1413" y="562" key="com.intellij.ide.util.TipDialog" timestamp="1583518035767">
+    <state x="1801" y="552" key="com.intellij.ide.util.TipDialog" timestamp="1584073330246">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="1413" y="562" key="com.intellij.ide.util.TipDialog/-1680.23.1680.1027/0.23.3440.1417@0.23.3440.1417" timestamp="1583518035767" />
     <state x="690" y="414" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581993805879" />
+    <state x="1801" y="552" key="com.intellij.ide.util.TipDialog/0.23.3440.1417/-1680.23.1680.1027@0.23.3440.1417" timestamp="1584073330246" />
     <state x="1413" y="563" key="com.intellij.ide.util.TipDialog/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581792379807" />
     <state x="933" y="387" width="639" height="486" key="find.popup" timestamp="1581803904622">
       <screen x="0" y="23" width="3440" height="1417" />
