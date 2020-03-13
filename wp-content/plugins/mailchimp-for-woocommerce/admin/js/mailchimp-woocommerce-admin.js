@@ -57,7 +57,9 @@
 			}
 
 			e.preventDefault();
-		
+
+			var me = $(e.target);
+
 			const swalWithBootstrapButtons = Swal.mixin({
 				customClass: {
 				  confirmButton: 'button button-primary tab-content-submit disconnect-button',
@@ -81,8 +83,12 @@
 						history.replaceState({}, "", query[1]);
 						$('input[name=_wp_http_referer]').val(query[1]);
 					}
-					mailchimp_woocommerce_disconnect_done = true;
-					e.target.click();
+					try {
+						me.click();
+						mailchimp_woocommerce_disconnect_done = true;
+					} catch (e) {
+						console.error('clicking event for disconnect failed', e);
+					}
 				} 
 			})	
 		});
@@ -233,11 +239,13 @@
 			// While the popup is open, wait. when closed, try to get status=accepted
 		}
 
-		// Mailchimp OAuth connection (tab "connect")
+		// Remove Initial Sync Banner oon dismiss
 		$('#setting-error-mailchimp-woocommerce-initial-sync-end .notice-dismiss').click(function(e){
-			var data = {action:'mailchimp_woocommerce_remove_review_banner'};
-			$.get(ajaxurl, data);
+			$.get(phpVars.removeReviewBannerRestUrl, [], function(response){
+				console.log(response);
+			});
 		});
+
 		$('#comm_box_switch').change(function (e){
 			var switch_button = this;
 			var opt = this.checked ? 1 : 0;

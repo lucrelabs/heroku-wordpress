@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74ed6345-46ff-45b3-9f51-f54463c8b5e9" name="Default" comment="Update woocommerce">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+    <list default="true" id="74ed6345-46ff-45b3-9f51-f54463c8b5e9" name="Default" comment="update footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -67,7 +65,9 @@
       <workItem from="1580325135950" duration="2566000" />
       <workItem from="1580701602840" duration="3318000" />
       <workItem from="1581790007158" duration="1842000" />
-      <workItem from="1581792379247" duration="3882000" />
+      <workItem from="1581792379247" duration="7550000" />
+      <workItem from="1581993771065" duration="44000" />
+      <workItem from="1583518032294" duration="513000" />
     </task>
     <task id="LOCAL-00001" summary="Activate plugins and deactivate them. Add ManageWP Worker.">
       <created>1580192233141</created>
@@ -209,7 +209,49 @@
       <option name="project" value="LOCAL" />
       <updated>1581800545173</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="For divi theme uploader">
+      <created>1581800726529</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581800726529</updated>
+    </task>
+    <task id="LOCAL-00022" summary="For divi theme uploader">
+      <created>1581801036193</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1581801036193</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Make protected class public to resolve php error when uploading divi premade layouts">
+      <created>1581803286088</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1581803286088</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update footer">
+      <created>1581804146283</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1581804146283</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update footer">
+      <created>1581804263304</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1581804263304</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update footer">
+      <created>1581804360716</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1581804360716</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,24 +302,34 @@
     <MESSAGE value="Add woocommerce" />
     <MESSAGE value="Update woocommerce" />
     <MESSAGE value="try to make divi uploader work" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to make divi uploader work" />
+    <MESSAGE value="For divi theme uploader" />
+    <MESSAGE value="Make protected class public to resolve php error when uploading divi premade layouts" />
+    <MESSAGE value="update footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="update footer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="235" key="CommitChangelistDialog2" timestamp="1581800544742">
+    <state x="651" y="235" key="CommitChangelistDialog2" timestamp="1581804360336">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state x="651" y="235" key="CommitChangelistDialog2/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581800544742" />
-    <state x="1229" y="370" key="SettingsEditor" timestamp="1581790044050">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state x="651" y="235" key="CommitChangelistDialog2/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581804360336" />
+    <state x="600" y="274" key="SettingsEditor" timestamp="1581993759110">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state x="600" y="274" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1581993759110" />
     <state x="1229" y="370" key="SettingsEditor/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581790044050" />
-    <state x="749" y="361" key="Vcs.Push.Dialog.v2" timestamp="1581800546400">
+    <state x="749" y="361" key="Vcs.Push.Dialog.v2" timestamp="1581804362314">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state x="749" y="361" key="Vcs.Push.Dialog.v2/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581800546400" />
-    <state x="1413" y="563" key="com.intellij.ide.util.TipDialog" timestamp="1581792379807">
+    <state x="749" y="361" key="Vcs.Push.Dialog.v2/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581804362314" />
+    <state x="1413" y="562" key="com.intellij.ide.util.TipDialog" timestamp="1583518035767">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state x="1413" y="562" key="com.intellij.ide.util.TipDialog/-1680.23.1680.1027/0.23.3440.1417@0.23.3440.1417" timestamp="1583518035767" />
+    <state x="690" y="414" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581993805879" />
     <state x="1413" y="563" key="com.intellij.ide.util.TipDialog/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581792379807" />
+    <state x="933" y="387" width="639" height="486" key="find.popup" timestamp="1581803904622">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="933" y="387" width="639" height="486" key="find.popup/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581803904622" />
   </component>
 </project>
