@@ -2,77 +2,782 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74ed6345-46ff-45b3-9f51-f54463c8b5e9" name="Default" comment="update mailchimp plugin">
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/ActionScheduler_DataController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/ActionScheduler_OptionLock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/WP_CLI/Migration_Command.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/WP_CLI/ProgressBar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Abstract_RecurringSchedule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Abstract_Schedule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Abstract_Schema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Lock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Logger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_Store.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/abstracts/ActionScheduler_TimezoneHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/actions/ActionScheduler_Action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/actions/ActionScheduler_CanceledAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/actions/ActionScheduler_FinishedAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/actions/ActionScheduler_NullAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/ActionMigrator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/BatchFetcher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/DryRun_ActionMigrator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/DryRun_LogMigrator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/LogMigrator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/Runner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/migration/Scheduler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_CanceledSchedule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_CronSchedule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_IntervalSchedule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_NullSchedule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_Schedule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schedules/ActionScheduler_SimpleSchedule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/deprecated/ActionScheduler_Schedule_Deprecated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/deprecated/ActionScheduler_Store_Deprecated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/docs/version3-0.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/lib/WP_Async_Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/phpcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/ActionScheduler_Mock_Async_Request_QueueRunner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/ActionScheduler_Mocker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/jobstore/ActionScheduler_DBStoreMigrator_Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/jobstore/ActionScheduler_DBStore_Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/jobstore/ActionScheduler_HybridStore_Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/lock/ActionScheduler_OptionLock_Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/logging/ActionScheduler_DBLogger_Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/ActionMigrator_Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/BatchFetcher_Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/Config_Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/LogMigrator_Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/Runner_Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/mailchimp-for-woocommerce/includes/vendor/action-scheduler/tests/phpunit/migration/Scheduler_Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/notes/class-wc-notes-run-db-update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/views/html-notice-redirect-only-download.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_DataController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ProgressBar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_RecurringSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_Schedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_Schema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Lock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionMigrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/BatchFetcher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/LogMigrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Runner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/Scheduler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schedules/ActionScheduler_CanceledSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schedules/ActionScheduler_CronSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schedules/ActionScheduler_IntervalSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schedules/ActionScheduler_NullSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schedules/ActionScheduler_SimpleSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/deprecated/ActionScheduler_Schedule_Deprecated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/deprecated/ActionScheduler_Store_Deprecated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/WP_Async_Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/style-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/app/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/ie-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/style-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/components/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/csv-export/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/currency/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/date/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/ie/style-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/ie/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/navigation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/number/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/wp-admin-scripts/onboarding-homepage-notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/wp-admin-scripts/onboarding-product-import-notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/wp-admin-scripts/onboarding-product-notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/dist/wp-admin-scripts/onboarding-tax-notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/images/empty-content.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/images/onboarding/fb-woocommerce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/images/onboarding/g-shopping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/images/onboarding/mailchimp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/images/onboarding/other-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/includes/connect-existing-pages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/includes/core-functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/includes/emails/html-admin-report-export-download.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/includes/emails/plain-admin-report-export-download.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/includes/feature-config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/includes/page-controller-functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/includes/wc-admin-update-functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/languages/woocommerce-admin.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Coupons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Customers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/DataCountries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/DataDownloadIPs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Init.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Leaderboards.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/NoteActions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Notes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/OnboardingPlugins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/OnboardingProfile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/OnboardingTasks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/OnboardingThemes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/ProductCategories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/ProductReviews.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/ProductVariations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Categories/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Categories/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Categories/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Coupons/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Coupons/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Coupons/Stats/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Segmenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Customers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Customers/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Customers/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Customers/Stats/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Customers/Stats/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Customers/Stats/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/DataStoreInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Downloads/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Downloads/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Downloads/Files/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Downloads/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Downloads/Stats/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Export/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/ExportableInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/ExportableTraits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Import/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Stats/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Stats/Segmenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/ParameterException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Products/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Products/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Products/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Products/Stats/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Products/Stats/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Products/Stats/Segmenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Revenue/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Segmenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/SqlQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Stock/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Stock/Stats/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Stock/Stats/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Stock/Stats/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Taxes/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Taxes/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Taxes/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Taxes/Stats/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Segmenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/TimeInterval.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Variations/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Variations/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Variations/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/SettingOptions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Taxes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Themes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/CategoryLookup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Events.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/ActivityPanels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/Analytics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/AnalyticsDashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/Onboarding.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/OnboardingTasks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Install.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/DataStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/NoteTraits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Note.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Add_First_Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Deactivate_Plugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Facebook_Extension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Giving_Feedback_Notes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Historical_Data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Mobile_App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_New_Sales_Record.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Onboarding.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Onboarding_Email_Marketing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Onboarding_Profiler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Order_Milestones.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Settings_Notes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Tracking_Opt_In.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Welcome_Message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/OrderRefund.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/OrderTraits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/ThemeUpgrader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Overrides/ThemeUpgraderSkin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Package.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/PageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/ReportCSVEmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/ReportCSVExporter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/ReportExporter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/ReportsSync.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/CustomersScheduler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/ImportInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/ImportScheduler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/OrdersScheduler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/SchedulerTraits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/uninstall.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/autoload_packages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/automattic/jetpack-autoloader/src/AutoloadGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/automattic/jetpack-autoloader/src/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/autoload_classmap_package.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/AglInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/AimeosInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/AsgardInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/AttogramInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/BaseInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/BitrixInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/BonefishInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/CakePHPInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ChefInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/CiviCrmInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ClanCatsFrameworkInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/CockpitInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/CodeIgniterInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/Concrete5Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/CraftInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/CroogoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/DecibelInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/DframeInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/DokuWikiInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/DolibarrInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/DrupalInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ElggInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/EliasisInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ExpressionEngineInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/EzPlatformInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/FuelInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/FuelphpInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/GravInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/HuradInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ImageCMSInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ItopInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/JoomlaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/KanboardInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/KirbyInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/KnownInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/KodiCMSInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/KohanaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/LanManagementSystemInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/LaravelInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/LavaLiteInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/LithiumInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/MODULEWorkInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/MODXEvoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/MagentoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/MajimaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/MakoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/MauticInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/MayaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/MediaWikiInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/MicroweberInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ModxInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/MoodleInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/OctoberInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/OntoWikiInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/OsclassInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/OxidInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/PPIInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/PhiftyInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/PhpBBInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/PimcoreInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/PiwikInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/PlentymarketsInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/Plugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/PortoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/PrestashopInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/PuppetInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/PxcmsInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/RadPHPInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ReIndexInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/Redaxo5Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/RedaxoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/RoundcubeInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/SMFInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ShopwareInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/SilverStripeInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/SiteDirectInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/SyDESInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/Symfony1Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/TYPO3CmsInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/TaoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/TheliaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/TuskInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/UserFrostingInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/VanillaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/VgmcpInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/WHMCSInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/WolfCMSInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/WordPressInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/YawikInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ZendInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/ZikulaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-admin/woocommerce-admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-search/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/automattic/jetpack-constants/src/class-constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/pelago/emogrifier/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/pelago/emogrifier/src/Emogrifier/HtmlProcessor/HtmlPruner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/pelago/emogrifier/src/Emogrifier/Utilities/ArrayIntersector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/CssSelectorConverter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/AbstractNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/AttributeNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/ClassNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/CombinedSelectorNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/ElementNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/FunctionNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/HashNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/NegationNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/NodeInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/PseudoNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/SelectorNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Node/Specificity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Handler/CommentHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Handler/HandlerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Handler/HashHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Handler/IdentifierHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Handler/NumberHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Handler/StringHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Handler/WhitespaceHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/ParserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Reader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Shortcut/ClassParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Shortcut/ElementParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Shortcut/EmptyStringParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Shortcut/HashParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/TokenStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Tokenizer/Tokenizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerEscaping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerPatterns.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/CssSelectorConverterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/AbstractNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/AttributeNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/ClassNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/CombinedSelectorNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/ElementNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/FunctionNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/HashNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/NegationNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/PseudoNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/SelectorNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Node/SpecificityTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Handler/AbstractHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Handler/CommentHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Handler/HashHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Handler/IdentifierHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Handler/NumberHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Handler/StringHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Handler/WhitespaceHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/ParserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/ReaderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Shortcut/ClassParserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Shortcut/ElementParserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Shortcut/EmptyStringParserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/Shortcut/HashParserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/Parser/TokenStreamTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/XPath/Fixtures/ids.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/XPath/Fixtures/lang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/XPath/Fixtures/shakespear.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Tests/XPath/TranslatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/Extension/AbstractExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/Extension/AttributeMatchingExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/Extension/CombinationExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/Extension/ExtensionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/Extension/FunctionExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/Extension/HtmlExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/Extension/NodeExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/Extension/PseudoClassExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/Translator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/TranslatorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/symfony/css-selector/XPath/XPathExpr.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/admin-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/admin-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/preloader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/preloader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/woocommerce-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/woocommerce-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/woocommerce.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/woocommerce.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/woocommerce.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/woocommerce.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/admin/wc-setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/admin/wc-setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/admin/wc-setup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/admin/wc-setup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/frontend/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/frontend/checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/frontend/checkout.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/frontend/checkout.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/i18n/languages/woocommerce.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/i18n/languages/woocommerce.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-integration.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-integration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-log-handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-log-handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-payment-gateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-payment-gateway.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-privacy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-widget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-addons.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-addons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-api-keys-table-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-api-keys-table-list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-api-keys.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-api-keys.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-assets.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-assets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-attributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-attributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-exporters.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-exporters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-importers.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-importers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-meta-boxes.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-meta-boxes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-notices.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-notices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-post-types.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-post-types.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-setup-wizard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-status.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/class-wc-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper-api.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper-api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper-compat.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper-compat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper-plugin-info.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper-plugin-info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper-updater.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper-updater.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/helper/class-wc-helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/importers/class-wc-product-csv-importer-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/importers/class-wc-product-csv-importer-controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/importers/class-wc-tax-rate-importer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/importers/class-wc-tax-rate-importer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/list-tables/class-wc-admin-list-table-orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/list-tables/class-wc-admin-list-table-orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/list-tables/class-wc-admin-list-table-products.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/list-tables/class-wc-admin-list-table-products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-download-permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-download-permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-item-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-item-meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-item.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-item.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-advanced.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-advanced.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/plugin-updates/class-wc-plugin-updates.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/plugin-updates/class-wc-plugin-updates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/plugin-updates/class-wc-plugins-screen-updates.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/plugin-updates/class-wc-plugins-screen-updates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-coupon-usage.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-coupon-usage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-sales-by-date.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-sales-by-date.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-sales-by-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-sales-by-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-taxes-by-code.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-report-taxes-by-code.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-accounts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-accounts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-advanced.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-advanced.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-integrations.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-integrations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-products.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-shipping.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-shipping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-tax.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-tax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/views/html-admin-page-status-report.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/views/html-admin-page-status-report.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/views/html-notice-regenerating-lookup-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/views/html-notice-regenerating-lookup-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/views/html-notice-updating.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/views/html-notice-updating.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/admin/views/html-notice-wc-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-autoloader.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-autoloader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-background-emailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-background-emailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-countries.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-countries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-coupon.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-coupon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-discounts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-discounts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-download-handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-download-handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-emails.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-emails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-install.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-install.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-logger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-privacy-erasers.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-privacy-erasers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-privacy-exporters.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-privacy-exporters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-privacy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-product-download.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-product-download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-query.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-rate-limiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-rate-limiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-session-handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-session-handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-shipping-zones.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-shipping-zones.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-shipping.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-shipping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-structured-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-structured-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-tax.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-tax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-tracker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-tracker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-webhook.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-webhook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-woocommerce.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-woocommerce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/cli/class-wc-cli-rest-command.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/cli/class-wc-cli-rest-command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/cli/class-wc-cli-tool-command.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/cli/class-wc-cli-tool-command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/cli/class-wc-cli-update-command.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/cli/class-wc-cli-update-command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-coupon-data-store-cpt.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-coupon-data-store-cpt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-download-data-store.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-download-data-store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-download-log-data-store.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-download-log-data-store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-item-data-store.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-item-data-store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-variation-data-store-cpt.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-variation-data-store-cpt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-webhook-data-store.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-webhook-data-store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/emails/class-wc-email-customer-invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/emails/class-wc-email-customer-invoice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/emails/class-wc-email-customer-refunded-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/emails/class-wc-email-customer-refunded-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/emails/class-wc-email-failed-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/emails/class-wc-email-failed-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/emails/class-wc-email-new-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/emails/class-wc-email-new-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/gateways/bacs/class-wc-gateway-bacs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/gateways/bacs/class-wc-gateway-bacs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/gateways/cod/class-wc-gateway-cod.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/gateways/cod/class-wc-gateway-cod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/gateways/paypal/class-wc-gateway-paypal.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/gateways/paypal/class-wc-gateway-paypal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/gateways/paypal/includes/class-wc-gateway-paypal-pdt-handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/gateways/paypal/includes/class-wc-gateway-paypal-pdt-handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-database-service.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-database-service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/Emogrifier/CssConcatenator.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/pelago/emogrifier/src/Emogrifier/Utilities/CssConcatenator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/Emogrifier/CssInliner.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/pelago/emogrifier/src/Emogrifier/CssInliner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/Emogrifier/HtmlProcessor/AbstractHtmlProcessor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/pelago/emogrifier/src/Emogrifier/HtmlProcessor/AbstractHtmlProcessor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/Emogrifier/HtmlProcessor/CssToAttributeConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/pelago/emogrifier/src/Emogrifier/HtmlProcessor/CssToAttributeConverter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/Emogrifier/HtmlProcessor/HtmlNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/pelago/emogrifier/src/Emogrifier/HtmlProcessor/HtmlNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/action-scheduler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Abstract_ListTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Abstract_QueueRunner.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Action.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionClaim.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionClaim.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_CanceledAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_CanceledAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Compatibility.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Compatibility.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_CronSchedule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_DateTime.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_DateTime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_FatalErrorMonitor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_FatalErrorMonitor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_FinishedAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_FinishedAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_IntervalSchedule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_InvalidActionException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ListTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_LogEntry.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_LogEntry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Logger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_NullAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_NullAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_NullLogEntry.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_NullSchedule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_QueueCleaner.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueCleaner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_QueueRunner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schedules/ActionScheduler_Schedule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_SimpleSchedule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Store.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_TimezoneHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_TimezoneHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Versions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_WPCLI_QueueRunner.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_WPCLI_Scheduler_command.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_wcSystemStatus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostStatusRegistrar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_TaxonomyRegistrar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/deprecated/ActionScheduler_Abstract_QueueRunner_Deprecated.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/deprecated/ActionScheduler_Abstract_QueueRunner_Deprecated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/deprecated/ActionScheduler_AdminView_Deprecated.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/deprecated/ActionScheduler_AdminView_Deprecated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/deprecated/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/deprecated/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/CronExpression.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/CronExpression_FieldFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_FieldFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/CronExpression_FieldInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_FieldInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/CronExpression_HoursField.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/CronExpression_MonthField.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/CronExpression_YearField.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/lib/cron-expression/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/class-emogrifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/pelago/emogrifier/src/Emogrifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/class-wc-eval-math.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/class-wc-eval-math.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/log-handlers/class-wc-log-handler-db.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/log-handlers/class-wc-log-handler-db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/log-handlers/class-wc-log-handler-file.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/log-handlers/class-wc-log-handler-file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/payment-tokens/class-wc-payment-token-echeck.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/payment-tokens/class-wc-payment-token-echeck.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shipping/flat-rate/class-wc-shipping-flat-rate.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shipping/flat-rate/class-wc-shipping-flat-rate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shipping/legacy-flat-rate/class-wc-shipping-legacy-flat-rate.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shipping/legacy-flat-rate/class-wc-shipping-legacy-flat-rate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-order-tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-order-tracking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-eleven.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-eleven.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-fifteen.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-fifteen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-fourteen.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-fourteen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-nineteen.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-nineteen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-seventeen.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-seventeen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-sixteen.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-sixteen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-ten.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-ten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-thirteen.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-thirteen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-twelve.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-twelve.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-twenty.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/theme-support/class-wc-twenty-twenty.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/class-wc-site-tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/class-wc-site-tracking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/class-wc-tracks-client.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/class-wc-tracks-client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/class-wc-tracks-event.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/class-wc-tracks-event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/events/class-wc-admin-setup-wizard-tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/events/class-wc-admin-setup-wizard-tracking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/events/class-wc-extensions-tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/events/class-wc-extensions-tracking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/events/class-wc-importer-tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/events/class-wc-importer-tracking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/events/class-wc-products-tracking.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/tracks/events/class-wc-products-tracking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-cart-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-cart-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-conditional-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-conditional-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-core-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-core-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-order-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-order-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-product-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-product-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-rest-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-rest-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-stock-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-stock-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-template-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-template-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-update-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-update-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-user-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-user-functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site-installer-requirements-check.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site-installer-requirements-check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site-installer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site-installer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wccom-site/rest-api/class-wc-rest-wccom-site-installer-errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wccom-site/rest-api/class-wc-rest-wccom-site-installer-errors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wccom-site/rest-api/endpoints/class-wc-rest-wccom-site-installer-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wccom-site/rest-api/endpoints/class-wc-rest-wccom-site-installer-controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-price-filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-price-filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-product-tag-cloud.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-product-tag-cloud.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-recent-reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-recent-reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-top-rated-products.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-top-rated-products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/atomic/components/product/button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/atomic/components/product/button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/price-slider/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/price-slider/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/product-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/product-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/product-list/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/product-list/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-search/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-search/block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-search/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/components/grid-layout-control/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/components/grid-layout-control/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/active-filters-frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/active-filters-frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/active-filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/active-filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-products-frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-products-frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-products.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-reviews-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-reviews-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/all-reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/attribute-filter-frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/attribute-filter-frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/attribute-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/attribute-filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/block-error-boundary-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/block-error-boundary-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/block-error-boundary.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/block-error-boundary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/blocks-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/blocks-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/blocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-category-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-category-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-category.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-product-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-product-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/featured-product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/handpicked-products-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/handpicked-products-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/handpicked-products.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/handpicked-products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-filter-frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-filter-frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-best-sellers-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-best-sellers-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-best-sellers.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-best-sellers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-categories-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-categories-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-category-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-category-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-category.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-new-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-new-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-new.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-on-sale-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-on-sale-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-on-sale.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-on-sale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-search-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-search-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-search.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-tag-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-tag-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-tag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-top-rated-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-top-rated-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-top-rated.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/product-top-rated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/products-by-attribute-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/products-by-attribute-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/products-by-attribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/products-by-attribute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-category-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-category-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-category.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-product-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-product-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-by-product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-frontend-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-frontend-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-legacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-legacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-registry.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-registry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/FeaturedCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/FeaturedCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/FeaturedProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/FeaturedProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductCategories.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductCategories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Package.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/vendor/autoload_packages.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/vendor/autoload_packages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/vendor/automattic/jetpack-autoloader/src/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/vendor/automattic/jetpack-autoloader/src/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/woocommerce-gutenberg-products-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/woocommerce-gutenberg-products-block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/src/Packages.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/src/Packages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/auth/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/auth/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/cart/cart-item-data.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/cart/cart-item-data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/cart/shipping-calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/cart/shipping-calculator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/checkout/thankyou.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/checkout/thankyou.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/content-product_cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/content-product_cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/content-widget-reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/content-widget-reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/customer-reset-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/customer-reset-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/email-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/email-header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/email-styles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/email-styles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/plain/email-order-items.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/plain/email-order-items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/breadcrumb.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/breadcrumb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/form-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/form-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/quantity-input.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/quantity-input.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/wrapper-end.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/wrapper-end.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/wrapper-start.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/wrapper-start.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/add-to-cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/add-to-cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/loop-end.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/loop-end.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/loop-start.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/loop-start.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/orderby.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/orderby.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/price.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/price.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/sale-flash.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/loop/sale-flash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/myaccount/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/myaccount/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product-reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product-reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/grouped.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/grouped.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/variable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/variable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/variation-add-to-cart-button.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/variation-add-to-cart-button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/price.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/price.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/product-image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/product-image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/review-meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/review-meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/review.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/review.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/up-sells.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/up-sells.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/taxonomy-product_tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/taxonomy-product_tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/uninstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/uninstall.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/autoload_packages.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/autoload_packages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/autoload_classmap_package.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/autoload_classmap_package.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/woocommerce.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/woocommerce.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +843,10 @@
       <workItem from="1581792379247" duration="7550000" />
       <workItem from="1581993771065" duration="44000" />
       <workItem from="1583518032294" duration="513000" />
-      <workItem from="1584073047155" duration="557000" />
+      <workItem from="1584073047155" duration="3156000" />
+      <workItem from="1584339872565" duration="126000" />
+      <workItem from="1584379085576" duration="2819000" />
+      <workItem from="1584728921728" duration="1424000" />
     </task>
     <task id="LOCAL-00001" summary="Activate plugins and deactivate them. Add ManageWP Worker.">
       <created>1580192233141</created>
@@ -329,7 +1037,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584073331013</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update mailchimp plugin">
+      <created>1584073973929</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1584073973929</updated>
+    </task>
+    <task id="LOCAL-00029" summary="change db to mysql migrated from original postgres db">
+      <created>1584726137159</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1584726137159</updated>
+    </task>
+    <task id="LOCAL-00030" summary="disable pg4wp">
+      <created>1584726759318</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1584726759318</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,34 +1113,39 @@
     <MESSAGE value="Make protected class public to resolve php error when uploading divi premade layouts" />
     <MESSAGE value="update footer" />
     <MESSAGE value="update mailchimp plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="update mailchimp plugin" />
+    <MESSAGE value="change db to mysql migrated from original postgres db" />
+    <MESSAGE value="disable pg4wp" />
+    <option name="LAST_COMMIT_MESSAGE" value="disable pg4wp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="235" key="CommitChangelistDialog2" timestamp="1584073329405">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state x="-1357" y="145" key="CommitChangelistDialog2" timestamp="1584738789153">
+      <screen x="-1680" y="23" width="1680" height="1027" />
     </state>
-    <state x="651" y="235" key="CommitChangelistDialog2/0.23.3440.1417/-1680.23.1680.1027@0.23.3440.1417" timestamp="1584073329405" />
+    <state x="-1357" y="145" key="CommitChangelistDialog2/0.23.3440.1417/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1584738789153" />
+    <state x="1650" y="192" key="CommitChangelistDialog2/0.23.3440.1417/-1680.23.1680.1027@0.23.3440.1417" timestamp="1584726758818" />
     <state x="651" y="235" key="CommitChangelistDialog2/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581804360336" />
     <state x="600" y="274" key="SettingsEditor" timestamp="1581993759110">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="600" y="274" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1581993759110" />
     <state x="1229" y="370" key="SettingsEditor/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581790044050" />
-    <state x="749" y="361" key="Vcs.Push.Dialog.v2" timestamp="1584073334934">
+    <state x="749" y="361" key="Vcs.Push.Dialog.v2" timestamp="1584726762406">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state x="749" y="361" key="Vcs.Push.Dialog.v2/0.23.3440.1417/-1680.23.1680.1027@0.23.3440.1417" timestamp="1584073334934" />
+    <state x="749" y="361" key="Vcs.Push.Dialog.v2/0.23.3440.1417/-1680.23.1680.1027@0.23.3440.1417" timestamp="1584726762406" />
     <state x="749" y="361" key="Vcs.Push.Dialog.v2/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581804362314" />
-    <state x="1801" y="552" key="com.intellij.ide.util.TipDialog" timestamp="1584073330246">
+    <state x="1801" y="552" key="com.intellij.ide.util.TipDialog" timestamp="1584738048686">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="1413" y="562" key="com.intellij.ide.util.TipDialog/-1680.23.1680.1027/0.23.3440.1417@0.23.3440.1417" timestamp="1583518035767" />
-    <state x="690" y="414" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581993805879" />
-    <state x="1801" y="552" key="com.intellij.ide.util.TipDialog/0.23.3440.1417/-1680.23.1680.1027@0.23.3440.1417" timestamp="1584073330246" />
+    <state x="690" y="414" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1584379120046" />
+    <state x="1801" y="552" key="com.intellij.ide.util.TipDialog/0.23.3440.1417/-1680.23.1680.1027@0.23.3440.1417" timestamp="1584738048686" />
     <state x="1413" y="563" key="com.intellij.ide.util.TipDialog/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581792379807" />
-    <state x="933" y="387" width="639" height="486" key="find.popup" timestamp="1581803904622">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state x="456" y="287" width="683" height="486" key="find.popup" timestamp="1584463666903">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state x="456" y="287" width="683" height="486" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1584463666903" />
+    <state x="933" y="387" width="639" height="486" key="find.popup/0.23.3440.1417/-1680.23.1680.1027@0.23.3440.1417" timestamp="1584155623117" />
     <state x="933" y="387" width="639" height="486" key="find.popup/0.23.3440.1417/-1680.570.1680.1027@0.23.3440.1417" timestamp="1581803904622" />
   </component>
 </project>
